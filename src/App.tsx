@@ -39,7 +39,7 @@ function App() {
       date: '16 Jul 2025',
       title: 'El día en que pololeamos',
       description: 'Estaba tan nervioso cuando caminaba contigo a la orilla de la playa, pensando en que decirte, pero al final fue todo mágico y hermoso.',
-      image: 'src/img/IMG_8857.jpg',
+      image: 'public/img/IMG_8857.jpg',
       location: 'Playa El Sol, Viña del Mar'
     },
     {
@@ -47,7 +47,7 @@ function App() {
       date: '17 Jul 2025',
       title: 'Disfrutando del panorama',
       description: 'Ese día fuimos al pueblito y luego a esa placita, fue muy divertido y lindo.',
-      image: 'src/img/IMG_8862.jpg',
+      image: 'public/img/IMG_8862.jpg',
       location: 'Cerca de mi casa'
     },
     {
@@ -55,7 +55,7 @@ function App() {
       date: '31 Jul 2025',
       title: 'Mi apoyo perfecto',
       description: 'El día que defendí mi proyecto de título y fuiste el mejor apoyo que pude tener.',
-      image: 'src/img/84dcf20d-0dde-4ea6-ac3f-7a52d8a158be.JPG',
+      image: 'public/img/84dcf20d-0dde-4ea6-ac3f-7a52d8a158be.JPG',
       location: 'Universidad Diego Portales FIC'
     },
     {
@@ -63,7 +63,7 @@ function App() {
       date: '07 Ago 2025',
       title: 'Nuestra Primera ida al Templo',
       description: 'Uno de mis lugares favoritos a donde ir contigo es al Templo.',
-      image: 'src/img/IMG_8991.jpg',
+      image: 'public/img/IMG_8991.jpg',
       location: 'Templo del Señor, Santiago'
     },
     {
@@ -71,7 +71,7 @@ function App() {
       date: '08 Ago 2025',
       title: 'La mejor atención dental',
       description: 'Esta ha sido la mejor atención dental que he tenido. Es que la doctora era demasiado hermosa.',
-      image: 'src/img/IMG_9006.jpg',
+      image: 'public/img/IMG_9006.jpg',
       location: 'Clinica Salud Nacional'
     },
     {
@@ -79,7 +79,7 @@ function App() {
       date: '16 Ago 2025',
       title: 'Nuestro primer mes juntos',
       description: 'Primer mes de toda una eternidad juntos, y no podría estar más feliz.',
-      image: 'src/img/63a2710f-ab83-4fe2-8e60-3059f6260a77.JPG',
+      image: 'public/img/63a2710f-ab83-4fe2-8e60-3059f6260a77.JPG',
       location: 'Mall Vespucio'
     },
     {
@@ -87,7 +87,7 @@ function App() {
       date: '23 Ago 2025',
       title: 'Los huasos más lindos del sector',
       description: 'Contigo me di cuenta lo realmente linda que se puede ver una huasita. Eres demasiado hermosa jajajaja.',
-      image: 'src/img/IMG_1540.jpg',
+      image: 'public/img/IMG_1540.jpg',
       location: 'Capilla Barrio Colonial'
     }
   ];
@@ -116,70 +116,70 @@ function App() {
   const galleryImages: GalleryImage[] = [
     {
       id: 1,
-      url: 'src/img/IMG_8857.jpg',
+      url: 'public/img/IMG_8857.jpg',
       isVertical: false,
       title: 'Pololeo en la playa',
       description: 'Me gustas mucho'
     },
     {
       id: 2,
-      url: 'src/img/IMG_8839.jpg',
+      url: 'public/img/IMG_8839.jpg',
       isVertical: false,
       title: 'Felices en la playa',
       description: 'Esta es como una foto de papás cuando eran jóvenes jaja'
     },
     {
       id: 3,
-      url: 'src/img/522b40bb-ac8a-4648-9cc4-e016ba0cf218.JPG',
+      url: 'public/img/522b40bb-ac8a-4648-9cc4-e016ba0cf218.JPG',
       isVertical: false,
       title: 'Mi defensa de título',
       description: 'Gracias por estar presente en mis cositas. Te amo.'
     },
     {
       id: 4,
-      url: 'src/img/IMG_8921.jpg',
+      url: 'public/img/IMG_8921.jpg',
       isVertical: false,
       title: 'Ensayo Cueca',
       description: 'Por ti aprendería a hacer lo que sea'
     },
     {
       id: 5,
-      url: 'src/img/IMG_8951.jpg',
+      url: 'public/img/IMG_8951.jpg',
       isVertical: false,
       title: 'Lindo día en el mall',
       description: 'Ese día nos reimos mucho jajajaja'
     },
     {
       id: 6,
-      url: 'src/img/IMG_8973.jpg',
+      url: 'public/img/IMG_8973.jpg',
       isVertical: true,
       title: 'Día de gym',
       description: 'Ese día casi muero jajajaja, pero me encanta hacer cosas contigo'
     },
     {
       id: 7,
-      url: 'src/img/IMG_8984.jpg',
+      url: 'public/img/IMG_8984.jpg',
       isVertical: false,
       title: 'Hermoso día en el templo',
       description: 'Contigo es aun más especial'
     },
     {
       id: 8,
-      url: 'src/img/IMG_8990.jpg',
+      url: 'public/img/IMG_8990.jpg',
       isVertical: true,
       title: 'Eres simplemente perfecta',
       description: 'hasta las flores más lindas se ven opacadas cuando estás tú cerca'
     },
     {
       id: 9,
-      url: 'src/img/IMG_8991.jpg',
+      url: 'public/img/IMG_8991.jpg',
       isVertical: true,
       title: 'En el frente del templo',
       description: 'Un gran día para recordar'
     },
     {
       id: 10,
-      url: 'src/img/IMG_8995.jpg',
+      url: 'public/img/IMG_8995.jpg',
       isVertical: true,
       title: 'Foto en el espejo del metro',
       description: 'Volvíamos del templo, estabas tan linda'
