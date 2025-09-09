@@ -39,7 +39,7 @@ function App() {
       date: '16 Jul 2025',
       title: 'El día en que pololeamos',
       description: 'Estaba tan nervioso cuando caminaba contigo a la orilla de la playa, pensando en que decirte, pero al final fue todo mágico y hermoso.',
-      image: '/public/img/IMG_8857.jpg',
+      image: '/img/IMG_8857.jpg',
       location: 'Playa El Sol, Viña del Mar'
     },
     {
@@ -47,7 +47,7 @@ function App() {
       date: '17 Jul 2025',
       title: 'Disfrutando del panorama',
       description: 'Ese día fuimos al pueblito y luego a esa placita, fue muy divertido y lindo.',
-      image: 'public/img/IMG_8862.jpg',
+      image: '/public/img/IMG_8862.jpg',
       location: 'Cerca de mi casa'
     },
     {
