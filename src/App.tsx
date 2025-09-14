@@ -36,6 +36,14 @@ function App() {
   const memories: LoveMemory[] = [
     {
       id: 1,
+      date: '15 Jul 2025',
+      title: 'El día antes de pedirte pololeo',
+      description: 'No sospechabas nada de lo que sería el siguiente día, pero yo ya lo tenía todo planeado.',
+      image: '/img/a46e18bc-02ab-47ed-a742-012849c0df6b.JPG',
+      location: 'ISO Anexo'
+    },
+    {
+      id: 2,
       date: '16 Jul 2025',
       title: 'El día en que pololeamos',
       description: 'Estaba tan nervioso cuando caminaba contigo a la orilla de la playa, pensando en que decirte, pero al final fue todo mágico y hermoso.',
@@ -43,7 +51,7 @@ function App() {
       location: 'Playa El Sol, Viña del Mar'
     },
     {
-      id: 2,
+      id: 3,
       date: '17 Jul 2025',
       title: 'Disfrutando del panorama',
       description: 'Ese día fuimos al pueblito y luego a esa placita, fue muy divertido y lindo.',
@@ -51,7 +59,7 @@ function App() {
       location: 'Cerca de mi casa'
     },
     {
-      id: 3,
+      id: 4,
       date: '31 Jul 2025',
       title: 'Mi apoyo perfecto',
       description: 'El día que defendí mi proyecto de título y fuiste el mejor apoyo que pude tener.',
@@ -59,7 +67,7 @@ function App() {
       location: 'Universidad Diego Portales FIC'
     },
     {
-      id: 4,
+      id: 5,
       date: '07 Ago 2025',
       title: 'Nuestra Primera ida al Templo',
       description: 'Uno de mis lugares favoritos a donde ir contigo es al Templo.',
@@ -67,7 +75,7 @@ function App() {
       location: 'Templo del Señor, Santiago'
     },
     {
-      id: 5,
+      id: 6,
       date: '08 Ago 2025',
       title: 'La mejor atención dental',
       description: 'Esta ha sido la mejor atención dental que he tenido. Es que la doctora era demasiado hermosa.',
@@ -75,7 +83,7 @@ function App() {
       location: 'Clinica Salud Nacional'
     },
     {
-      id: 6,
+      id: 7,
       date: '16 Ago 2025',
       title: 'Nuestro primer mes juntos',
       description: 'Primer mes de toda una eternidad juntos, y no podría estar más feliz.',
@@ -83,7 +91,7 @@ function App() {
       location: 'Mall Vespucio'
     },
     {
-      id: 7,
+      id: 8,
       date: '23 Ago 2025',
       title: 'Los huasos más lindos del sector',
       description: 'Contigo me di cuenta lo realmente linda que se puede ver una huasita. Eres demasiado hermosa jajajaja.',
