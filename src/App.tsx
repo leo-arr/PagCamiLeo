@@ -400,23 +400,21 @@ function App() {
 
           <div className="relative">
             {/* Timeline Line */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-pink-300 via-rose-300 to-orange-300 rounded-full"></div>
+            <div className="absolute left-8 md:left-1/2 transform md:-translate-x-1/2 w-1 h-full bg-gradient-to-b from-pink-300 via-rose-300 to-orange-300 rounded-full"></div>
 
             {memories.map((memory, index) => (
               <div 
                 key={memory.id} 
-                className={`relative flex items-center mb-16 ${
-                  index % 2 === 0 ? 'justify-start' : 'justify-end'
-                }`}
+                className="relative flex items-center mb-16 justify-start md:justify-start md:even:justify-end"
               >
                 {/* Timeline Dot */}
-                <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-rose-400 rounded-full border-4 border-white shadow-lg z-10">
+                <div className="absolute left-8 md:left-1/2 transform -translate-x-1/2 w-6 h-6 bg-rose-400 rounded-full border-4 border-white shadow-lg z-10">
                   <div className="w-full h-full bg-rose-400 rounded-full animate-ping opacity-75"></div>
                 </div>
 
                 {/* Memory Card */}
                 <div 
-                  className={`w-5/12 ${index % 2 === 0 ? 'pr-12' : 'pl-12'}`}
+                  className="w-full pl-20 md:w-5/12 md:pl-0 md:pr-12 md:even:pl-12 md:even:pr-0"
                   onClick={() => setSelectedMemory(memory)}
                 >
                   <div className="bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 cursor-pointer overflow-hidden group">
