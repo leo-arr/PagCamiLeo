@@ -97,27 +97,43 @@ function App() {
       description: 'Contigo me di cuenta lo realmente linda que se puede ver una huasita. Eres demasiado hermosa jajajaja.',
       image: '/img/IMG_1540.jpg',
       location: 'Capilla Barrio Colonial'
+    },
+    {
+      id: 9,
+      date: '28 Ago 2025',
+      title: 'Este día fue muy lindo',
+      description: 'Cada día que paso contigo es especial. No me cansaré nunca de darte besitos.',
+      image: '/img/IMG_1668.jpg',
+      location: 'Parque Araucano'
+    },
+    {
+      id: 10,
+      date: '04 Sep 2025',
+      title: 'Tus logros también son los mios.',
+      description: 'Este día fue tan especial, no me puedo sentir más orguilloso por ti, eres maravillosa.',
+      image: '/img/bd40c270-9053-4f8f-92d9-65d13d99fb0c.JPG',
+      location: 'Templo del Señor'
     }
   ];
 
   const loveMessages: LoveMessage[] = [
     {
       id: 1,
-      message: "Cada día a tu lado es una nueva página en nuestra historia de amor. Eres mi hogar, mi aventura y mi paz.",
-      author: "Para mi amor",
-      date: "14 Feb 2024"
+      message: "Desde el momento que supe que lo nuestro era mutuo mi vida fue mucho más feliz",
+      author: "Para mi camilita hermosa",
+      date: "❤"
     },
     {
       id: 2,
-      message: "En tus ojos encontré mi universo, en tu sonrisa mi felicidad, y en tu corazón mi hogar para siempre.",
-      author: "Con todo mi amor",
-      date: "20 Mar 2024"
+      message: "Tus ojos son los más hermosos que he visto e iluminan todos mis días, el sentimiento más lindo es cuando me miran.",
+      author: "Para mi princesitaaa",
+      date: "❤"
     },
     {
       id: 3,
-      message: "Antes de ti, yo era una historia a medias. Contigo, soy una novela completa llena de amor y aventuras.",
-      author: "Tu alma gemela",
-      date: "15 Jun 2024"
+      message: "Mi eternidad no la quiero con nadie más que no sea contigo.",
+      author: "Para mi tesorito",
+      date: "❤"
     }
   ];
 
@@ -191,6 +207,132 @@ function App() {
       isVertical: true,
       title: 'Foto en el espejo del metro',
       description: 'Volvíamos del templo, estabas tan linda'
+    },
+    {
+      id: 11,
+      url: '/img/63a2710f-ab83-4fe2-8e60-3059f6260a77.JPG',
+      isVertical: true,
+      title: 'Besito en nuestro primer mes',
+      description: 'Que lindo día, nuestro primer mes de infinitos.'
+    },
+    {
+      id: 12,
+      url: '/img/IMG_1402.jpg',
+      isVertical: true,
+      title: 'En la conferencia de estaca',
+      description: 'Ya quiero que seamos estos siempre jajaja.'
+    },
+    {
+      id: 13,
+      url: '/img/IMG_1428.jpg',
+      isVertical: true,
+      title: 'Definición de belleza',
+      description: 'Que hermosa que eres jajajaja, lindaaaaa.'
+    },
+    {
+      id: 14,
+      url: '/img/IMG_1540.jpg',
+      isVertical: false,
+      title: 'La huasita que quiero siempreee',
+      description: 'Tiki tiki tiii, te amo solo a tiii.'
+    },
+    {
+      id: 15,
+      url: '/img/IMG_1580.jpg',
+      isVertical: true,
+      title: 'Huasitos de revista',
+      description: 'Que ganas de bailar bien cueca para conquitar esta huasita hermosa.'
+    },
+    {
+      id: 16,
+      url: '/img/IMG_1512.jpg',
+      isVertical: true,
+      title: 'Me enamorooo',
+      description: 'El traje de huasa de salón te queda pero increible amor, te amo.'
+    },
+    {
+      id: 17,
+      url: '/img/IMG_1648.jpg',
+      isVertical: true,
+      title: 'POV el amor de mi vida comiendo pollito',
+      description: 'Me gusta mucho esta foto jajajaja.'
+    },
+    {
+      id: 18,
+      url: '/img/IMG_1647.jpg',
+      isVertical: true,
+      title: 'POV ese hombre te ama mucho',
+      description: 'No te imaginas cuanto te amo, incluso más que el pollo.'
+    },
+    {
+      id: 19,
+      url: '/img/IMG_1586.jpg',
+      isVertical: false,
+      title: 'Besitooos',
+      description: 'Nunca dejes de darme besitos.'
+    },
+    {
+      id: 20,
+      url: '/img/IMG_8862.jpg',
+      isVertical: false,
+      title: 'Iluminado',
+      description: 'Recibiendo la rebelación de que eres la mujer de mi vida.'
+    },
+    {
+      id: 21,
+      url: '/img/155db720-deaa-437f-9f2c-04291cc8df50.JPG',
+      isVertical: true,
+      title: 'Investidura monita',
+      description: 'Unas ganas de hacer el proximo convenio contigo jajajaja.'
+    },
+    {
+      id: 22,
+      url: '/img/bd40c270-9053-4f8f-92d9-65d13d99fb0c.JPG',
+      isVertical: true,
+      title: 'Investidura de la mujer más hermosa del mundo',
+      description: 'Yo te besaría por la eternidad.'
+    },
+    {
+      id: 23,
+      url: '/img/IMG_9006.jpg',
+      isVertical: true,
+      title: 'Dentista hermosa',
+      description: 'Quién fuera tu cepillo de dientes.'
+    },
+    {
+      id: 23,
+      url: '/img/IMG_9393.jpg',
+      isVertical: true,
+      title: 'Segunda cita con la dentista hermosa',
+      description: 'Que afortunado ese chico.'
+    },
+    {
+      id: 24,
+      url: '/img/IMG_9399.jpg',
+      isVertical: true,
+      title: 'Beeesameee',
+      description: 'Dame más besitooos.'
+    },
+    {
+      id: 25,
+      url: '/img/IMG_1668.jpg',
+      isVertical: true,
+      title: 'Amoooor',
+      description: 'Que besitos tan ricos, te amooo.'
+    },
+    {
+      id: 26,
+      url: '/img/a46e18bc-02ab-47ed-a742-012849c0df6b.JPG',
+      isVertical: true,
+      title: 'Foto espejo',
+      description: 'Espejito espejito, este es mi amorcito.'
+    },
+    {
+      id: 27,
+      url: '/img/IMG_1665.jpg',
+      isVertical: true,
+      title: 'Abrigate un poquito',
+      description: 'Yo te abrazo hasta que se te pase el frío.'
     }
   ];
 
@@ -235,7 +377,7 @@ function App() {
             Nuestra Historia
           </h1>
           <p className="text-2xl md:text-3xl text-gray-600 font-light mb-8">
-            Un amor que trasciende el tiempo
+            Un poquito de como hemos contruido lo nuestro
           </p>
           <div className="flex items-center justify-center space-x-4 text-gray-700">
             <Clock className="w-5 h-5" />
@@ -249,10 +391,10 @@ function App() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-serif text-gray-800 mb-4">
-              Nuestra Línea del Tiempo
+              Nuestros momentos especiales
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Cada momento contigo ha sido un regalo. Aquí están los capítulos más especiales de nuestra historia.
+              Cada momento contigo es muy especial en mi corazón. Aquí están algunos de nuestros momentos lindos.
             </p>
           </div>
 
@@ -316,7 +458,8 @@ function App() {
               Mensajes de Amor
             </h2>
             <p className="text-xl text-gray-600">
-              Palabras del corazón que capturan la esencia de nuestro amor
+              Aquí pondré algunas cositas que siento por ti.
+              La idea es poner cositas lindas o citas con las que nos identifiquemos.
             </p>
           </div>
 
@@ -350,7 +493,7 @@ function App() {
               Galería de Momentos
             </h2>
             <p className="text-xl text-gray-600">
-              Cada foto cuenta una historia, cada sonrisa guarda un secreto
+              Detrás de cada una de estas fotos hay muchísimo amor.❤
             </p>
           </div>
 
@@ -419,10 +562,10 @@ function App() {
             <Heart className="w-8 h-8 text-rose-400 animate-pulse" fill="currentColor" />
           </div>
           <h3 className="text-2xl font-serif text-white mb-4">
-            "El amor verdadero no tiene final"
+            "Una recopilación de lo que será nuestro camino a la eternidad"
           </h3>
           <p className="text-gray-300">
-            Creado con amor para celebrar nuestro amor • {new Date().getFullYear()}
+            Con mucho amor para mi Monita • {new Date().getFullYear()}
           </p>
         </div>
       </footer>
