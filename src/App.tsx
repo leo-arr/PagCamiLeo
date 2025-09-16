@@ -113,6 +113,14 @@ function App() {
       description: 'Este día fue tan especial, no me puedo sentir más orguilloso por ti, eres maravillosa.',
       image: '/img/bd40c270-9053-4f8f-92d9-65d13d99fb0c.JPG',
       location: 'Templo del Señor'
+    },
+    {
+      id: 11,
+      date: '16 Sep 2025',
+      title: 'Nuestro segundo mes juntitos.',
+      description: 'Desde que estoy contigo el mote con huesillo sabe más dulce.',
+      image: '/img/WhatsApp Image 2025-09-16 at 2.51.58 PM.jpeg',
+      location: 'El parque cerca de manuel montt'
     }
   ];
 
@@ -333,6 +341,20 @@ function App() {
       isVertical: true,
       title: 'Abrigate un poquito',
       description: 'Yo te abrazo hasta que se te pase el frío.'
+    },
+    {
+      id: 28,
+      url: '/img/WhatsApp Image 2025-09-16 at 2.51.58 PM.jpeg',
+      isVertical: false,
+      title: 'Mote con huesillo y amor',
+      description: 'Que rico el mote con huesillo y más si es a tu lado.'
+    },
+    {
+      id: 29,
+      url: '/img/WhatsApp Image 2025-09-16 at 3.07.31 PM.jpeg',
+      isVertical: true,
+      title: 'La vista perfecta',
+      description: 'Yo pensaba que el mote con huesillo era rico hasta que te conocí.'
     }
   ];
 
